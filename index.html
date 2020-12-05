@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="cardgame.js"></script>
+		<link rel="stylesheet" type="text/css" href="cardgame.css">
+		<title>Card Game</title>
+	</head>
+	
+	<body id="bg">
+	
+		<h1 style="font-size: 32pt; background-color: black; opacity: 80%">PRICE IS RIGHT - CARD GAME</h1>
+		<div id="header" style="background-color: black; opacity: 80%">
+			<p style="text-align: center"><b>Starting at $15,000, guess the price of the car by drawing from a deck of playing cards. If your price is within the given range, you win!
+			<br/>Each card is worth 100 times its value (twos are worth $200, threes are worth $300, etc.). Kings, Jacks and Queens are worth $1,000. Aces are wild: you 
+			can make an Ace worth any value in between 0 and $1 less than the current car price, or you could end the game on an Ace by giving an estimated price for the car. You can even end 
+			the game without drawing any cards if you feel that the price is already within the range. How many cards do you feel the need to draw to win the game? Good luck!</b></p>
+		</div>
+		
+		<div id="carPrice" style="text-align: center">
+				<ul>
+					<li><h2>$</h2></li>
+					 <li><div id="num1"><h2 id="num1text"></h2></div></li>
+					 <li><div id="num2"><h2 id="num2text"></h2></div></li>
+					 <li><h2>,</h2></li>
+					 <li><div id="num3"><h2 id="num3text"></h2></div></li>
+					 <li><div id="num4"><h2 id="num4text"></h2></div></li>
+					 <li><div id="num5"><h2 id="num5text"></h2></div></li>
+				</ul>
+		</div>
+		
+		<div id="ace" style="text-align: center; margin-top: 10px; background-color: green; opacity: 80%; visibility: hidden">
+			<p style="text-align: center" id="ace-header">You drew an Ace. You can supply an amount to add to the car price that is anywhere between 0 and $1 less than the current price, or you can 
+			provide any five-digit number between the current car price and 99999, which will serve as your guess for the actual price of the car. You can even end the game on this number.</p>
+			<input type="number" id="input" />
+			<input type="button" id="submitBtn" value="SUBMIT" />
+		</div>
+		
+		<div id="startstop" style="background-color: blue; opacity: 80%; text-align: center">
+			<ul>
+				<li><label>Do you want to stop the game? YES ends the game, while NO draws another card.</label></li>
+				<li><input type="button" id="yes" value="YES" disabled/></li>
+				<li><input type="button" id="no" value="NO" disabled/></li>
+			</ul>
+		</div>
+		
+		<!-- <input type="number" name="input" id="input" min="0" max="9" /> -->
+		<input type="button" id="startGame" value="START GAME" />
+		<input type="button" id="resetGame" value="RESET GAME" />
+		
+		<div id="gameplay" style="text-align: center"></div>
+	
+	</body>
+</html>

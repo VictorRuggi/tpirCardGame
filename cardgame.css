@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Gotham";
+	font-size: 14pt;
+	color: white;
+	height: 100%;
+	width: 100%
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-image: url("set.jpg");
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 70pt;
+}
+
+li {
+	display: inline-block;
+}
+
+label {
+	background-color: blue;
+	opacity: 80%;
+}
+
+#num1{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num2{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num3{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num4{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num5{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num1text{
+	color: red;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num2text{
+	color: black;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num3text{
+	color: red;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num4text{
+	color: black;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num5text{
+	color: red;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#input {
+	height: 40px;
+	margin-top: 25px;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#submitGuess {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#resetGame {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#startGame {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#yes {
+	height: 30px;
+	/*margin-top: 25px;
+	margin-left: 50%;*/
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 12pt;
+	opacity: 100%;
+}
+
+#no {
+	height: 30px;
+	/*margin-top: 25px;
+	margin-left: 50%;*/
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 12pt;
+	opacity: 100%;
+}
+
+#submitBtn {
+	height: 30px;
+	/*margin-top: 25px;
+	margin-left: 50%;*/
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 12pt;
+	opacity: 100%;
+}
+
+#gameplay {
+	background-color: purple;
+	opacity: 80%;
+}
